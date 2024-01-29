@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color:  #0F110C;
+            color:gainsboro;
+            font-family:monospace;
+        }
+        li
+        {
+            font-size: x-large;
+            padding: 20px;
+            display:inline;
+        }
+        a.nav{
+            padding: 15px;
+            color:rgb(245, 245, 245);
+            text-decoration: none;
+        }
+        a.nav:hover
+        {
+            border-bottom: 3px solid #BFCDE0;
+        }
+        .navigation
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:  #0F110C;
+            height: 100px;
+        }
+        .flex-container
+        {
+            display: flex;
+            flex-direction: row;
+            margin: 40px;
+            justify-content: space-around;
+            align-items: center;
+            /* height:400px;    */
+        }
+        .text
+        {
+            font-size: x-large;
+        }
+        .color
+        {
+            color: #3BBA9C;
+        }
+        .center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <ul style="margin:0%">
+            <li><a class="nav" href="Portfolio.html">Home</a></li>
+            <li><a class="nav" href="About.html">About</a></li>
+            <li><a class="nav" href="Education.html">Education</a></li>
+            <li><a class="nav" href="projects.html">Project</a></li>
+        </ul>
+    </div>
+    <div class="flex-container">
+        <div class="text">
+            <h1 class="color" style="text-align: center;">About ME</h1>
+            <p>I'm currently pursuing B.Tech in <span class="color" style="font-style: italic;">Artificial Intelligence and Data Science</span> at kongu Engineering College</p>
+            <p><span class="color" style="font-style: italic;">Full-stack developer</span> with experience in<span class="color" style="font-style: italic;"> MERN stack</span> and interest in UI/UX design.</p>
+            <p>Actively involved in professional and academic organizations, with a track record of <span class="color" style="font-style: italic;">leadership and teamwork</span>.</p>
+            <p>Eager to apply my knowledge and skills to contribute to innovative and impactful projects.</p>
+        </div>
+        <div class="image">
+            <img src="../images/gleam-basics-of-programming-for-children-1.png" height="400" width="400">
+        </div>
+    </div>
+    <br>
+    <hr>
+    <div >
+        <div class="text center">
+            <h2 class="color">LANGUAGES KNOWN</h2>
+            <ul>
+                <li>C (Expert)</li>
+                <li>Java (Intermediate)</li>
+                <li>Python (Intermediate)</li>
+                <li>Rust (Beginner)</li>
+            </ul>
+        </div>
+        <br><hr>
+        <div class="text center">
+            <h2 class="color">SKILLS</h2>
+            <ul>
+                <li>MERN Stack</li>
+                <li>UI/UX design</li>
+                <li>Git</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

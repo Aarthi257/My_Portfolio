@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color:  #0F110C;
+            color:gainsboro;
+            font-family:monospace;
+        }
+        li
+        {
+            font-size: x-large;
+            padding: 20px;
+            display:inline;
+        }
+        a.nav{
+            padding: 15px;
+            color:rgb(245, 245, 245);
+            text-decoration: none;
+        }
+        a.nav:hover
+        {
+            border-bottom: 3px solid #BFCDE0;
+        }
+        .navigation
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:  #0F110C;
+            height: 100px;
+        }
+        .cards
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items:center;
+            margin: 70px;
+        }
+        .c
+        {
+            width: 70%;
+            margin: 50px;
+            display:flex;
+            flex-direction: row;
+            align-items:center;
+            border: 2px solid #3bba9c;
+            border-radius: 10px;
+        }
+        img
+        {
+            object-fit:fill;
+        }
+        a.link
+        {
+            color:white;
+            text-decoration: none;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #3bba9c;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 10px;
+            text-align: center;
+            text-decoration: none;
+            margin-left: 10px;
+            font-size: medium;
+        }
+        .center
+        {
+            text-align: center;
+        }
+        .color
+        {
+            color:#3bba9c;
+        }
+        .font
+        {
+            font-size: larger;
+        }
+    </style>
+</head>
+<body style="margin: 0px;">
+    <div class="navigation">
+        <ul style="margin:0%">
+            <li><a class="nav" href="Portfolio.html">Home</a></li>
+            <li><a class="nav" href="About.html">About</a></li>
+            <li><a class="nav" href="Education.html">Education</a></li>
+            <li><a class="nav" href="projects.html">Project</a></li>
+        </ul>
+    </div>
+    <div class="cards">
+        <div class="c">
+            <div class="image">
+                <img src="../images/population_analysis.png">
+            </div>
+            <div class="font">
+                <h2 class="center color">Indian Population Analysis</h2>
+                <p>The data was collected from github and analysis on that data was done using PowerBI.
+                    Many insights were collected and reported.</p>
+                <button class="btn"><a class="link" href="https://github.com/Aarthi257/INDIAN-POPULATION-ANALYSIS">Github</a></button>
+            </div>
+        </div>
+        <div class="c">
+            <div class="image">
+                <img src="../images/weather.jfif">
+            </div>
+            <div class="font">
+                <h2 class="color center">Weather App</h2>
+                <p>A basic weather app was created using HTML and CSS.</p>
+                <button class="btn"><a class="link" href="https://github.com/Aarthi257/weather_app">Github</a></button>
+            </div>
+        </div>
+        <div class="c">
+            <div class="image">
+                <img src="../images/image_description.png">
+            </div>
+            <div class=" font">
+                <h2 class="color center">Image Descriptor</h2>
+                <p>An image descriptor was build using the hugging face model which generates some description on the image given as input.</p>
+                <button class="btn"><a class="link" href="https://github.com/Aarthi257/Image_description">Github</a></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

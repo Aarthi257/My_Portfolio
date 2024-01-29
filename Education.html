@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color:  #0F110C;
+            color:gainsboro;
+            font-family:monospace;
+        }
+        li
+        {
+            font-size: x-large;
+            padding: 20px;
+            display:inline;
+        }
+        a.nav{
+            padding: 15px;
+            color:rgb(245, 245, 245);
+            text-decoration: none;
+        }
+        a.nav:hover
+        {
+            border-bottom: 3px solid #BFCDE0;
+        }
+        .navigation
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:  #0F110C;
+            height: 100px;
+        }
+        .education
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        .card{
+            width: 300px;
+            border: 2px solid gainsboro;
+            border-radius: 10px;
+            text-align: center;
+        }
+        img{
+            object-fit: contain;
+        }
+        .color
+        {
+            color: #3bba9c;
+        }
+        .text
+        {
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <ul>
+            <li class="nav_li"><a class="nav" href="Portfolio.html">Home</a></li>
+            <li class="nav_li"><a class="nav" href="About.html">About</a></li>
+            <li class="nav_li"><a class="nav" href="Education.html">Education</a></li>
+            <li class="nav_li"><a class="nav" href="projects.html">Project</a></li>
+        </ul>
+    </div>
+    <div class="education">
+        <div class="card">
+            <img src="../images/kec.jfif" height="300px" width="250px">
+            <hr>
+            <h3 class="color text">KONGU ENGINEERING COLLEGE</h3>
+            <h4>B.Tech - Artificial Intelligence and Data Science</h4>
+            <p>2021-2025</p>
+        </div>
+        <div class="card">
+            <img src="../images/tis.jfif" height="300px" width="250px">
+            <hr>
+            <h3 class="text color">THAMARAI INTERNATIONAL SCHOOL</h3>
+            <h4>12TH</h4>
+            <p>2020</p>
+        </div>
+        <div class="card">
+            <img src="../images/dhmss.jfif" height="300px" width="250px">
+            <hr>
+            <h3 class="text color">DHARANI MATRICULATION HIGHER SECONDARY SCHOOL</h3>
+            <h4>10TH</h4>
+            <p>2018</p>
+        </div>
+    </div>
+</body>
+</html>

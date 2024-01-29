@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <style>
+        body
+        {
+            background-color:  #0F110C;
+            color:gainsboro;
+            font-family:monospace;
+        }
+        li
+        {
+            font-size: x-large;
+            padding: 20px;
+            display:inline;
+        }
+        a.nav{
+            padding: 15px;
+            color:rgb(245, 245, 245);
+            text-decoration: none;
+        }
+        a.nav:hover
+        {
+            border-bottom: 3px solid #BFCDE0;
+        }
+        .navigation
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:  #0F110C;
+            height: 100px;
+        }
+        .flex-container
+        {
+            display:flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            margin: 30px;
+        }
+        .item1
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            color: #FEFCFD;
+        }
+        .i2
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            
+        }
+        img{
+            object-fit: contain;
+        }
+        img:hover{
+            box-shadow: 0 0 5px 4px #3BBA9C;
+        }
+        .font-large
+        {
+            font-size: xx-large;
+        }
+        .center{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body style="margin: 0px;">
+    <div class="navigation">
+        <ul style="margin:0%">
+            <li><a class="nav" href="Portfolio.html">Home</a></li>
+            <li><a class="nav" href="About.html">About</a></li>
+            <li><a class="nav" href="Education.html">Education</a></li>
+            <li><a class="nav" href="projects.html">Project</a></li>
+        </ul>
+    </div>
+    <div class="flex-container">
+        <div class="item1">
+            <div class="i1 font-large">
+                <h3>Hey, It's me</h3>
+                <h1 style="color:#3BBA9C">Aarthi B</h1>
+                <h3>And I'm a Web Developer</h3>
+                <hr>
+            </div>
+            <br><br>
+            <div class="i2 center">
+                <div class="i21">
+                    <a href="https://github.com/Aarthi257"><img src="../images/github.png" height="48px" width="48px"></a>
+                </div>
+                <div class="i22">
+                    <a href="https://www.linkedin.com/in/aarthi-b-29905a220/"><img src="../images/linkedin.png" height="48px" width="48px"></a>
+                </div>
+                <div class="i23">
+                    <a href="https://leetcode.com/user4569pd/"><img src="../images/leetcode.png" height="48px" width="48px"></a>
+                </div>
+                <div class="i24">
+                    <a href="https://www.hackerrank.com/profile/aarthibakkia"><img src="../images/hackerrank.png" height="48px" width="48px"></a>
+                </div>
+            </div>
+        </div>
+        <div class="item2">
+            <img src="../images/juicy-online-tech-talks.png">
+        </div>
+    </div>
+</body>
+</html>
